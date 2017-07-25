@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		5B2381C71EB32EF9001E140E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381C61EB32EF9001E140E /* AppDelegate.swift */; };
-		5B2381C91EB32EF9001E140E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381C81EB32EF9001E140E /* ViewController.swift */; };
 		5B2381CC1EB32EF9001E140E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2381CA1EB32EF9001E140E /* Main.storyboard */; };
 		5B2381CE1EB32EF9001E140E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2381CD1EB32EF9001E140E /* Assets.xcassets */; };
 		5B2381D11EB32EF9001E140E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2381CF1EB32EF9001E140E /* LaunchScreen.storyboard */; };
+		5B2381DD1EB33137001E140E /* FoodTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381DC1EB33137001E140E /* FoodTruck.swift */; };
+		5B2381DF1EB3340D001E140E /* FoodTruckReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381DE1EB3340D001E140E /* FoodTruckReview.swift */; };
+		5B2381E11EB334EE001E140E /* FoodTruckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381E01EB334EE001E140E /* FoodTruckCell.swift */; };
+		5B2381E31EB3351E001E140E /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381E21EB3351E001E140E /* ReviewCell.swift */; };
+		5B2381E51EB33566001E140E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381E41EB33566001E140E /* MainVC.swift */; };
+		5B2381EB1EB335F1001E140E /* AddTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381EA1EB335F1001E140E /* AddTruckVC.swift */; };
+		5B2381ED1EB3362E001E140E /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381EC1EB3362E001E140E /* DetailsVC.swift */; };
+		5B2381EF1EB3367B001E140E /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381EE1EB3367B001E140E /* ReviewsVC.swift */; };
+		5B2381F11EB336B3001E140E /* AddReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381F01EB336B3001E140E /* AddReviewVC.swift */; };
+		5B2381F41EB3370A001E140E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381F31EB3370A001E140E /* Constants.swift */; };
+		5B2381F71EB338F3001E140E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381F61EB338F3001E140E /* DataService.swift */; };
+		5B2381F91EB33932001E140E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381F81EB33932001E140E /* AuthService.swift */; };
+		5B2381FE1EB33ADC001E140E /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2381FC1EB33ADC001E140E /* LogInVC.swift */; };
+		5B2381FF1EB33ADC001E140E /* LogInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2381FD1EB33ADC001E140E /* LogInVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B2381C31EB32EF9001E140E /* API-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2381C61EB32EF9001E140E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B2381C81EB32EF9001E140E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B2381CB1EB32EF9001E140E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B2381CD1EB32EF9001E140E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2381D01EB32EF9001E140E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2381D21EB32EF9001E140E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2381DC1EB33137001E140E /* FoodTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruck.swift; sourceTree = "<group>"; };
+		5B2381DE1EB3340D001E140E /* FoodTruckReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckReview.swift; sourceTree = "<group>"; };
+		5B2381E01EB334EE001E140E /* FoodTruckCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTruckCell.swift; sourceTree = "<group>"; };
+		5B2381E21EB3351E001E140E /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		5B2381E41EB33566001E140E /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		5B2381EA1EB335F1001E140E /* AddTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTruckVC.swift; sourceTree = "<group>"; };
+		5B2381EC1EB3362E001E140E /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		5B2381EE1EB3367B001E140E /* ReviewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		5B2381F01EB336B3001E140E /* AddReviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReviewVC.swift; sourceTree = "<group>"; };
+		5B2381F31EB3370A001E140E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B2381F61EB338F3001E140E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5B2381F81EB33932001E140E /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		5B2381FC1EB33ADC001E140E /* LogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		5B2381FD1EB33ADC001E140E /* LogInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,67 @@
 		5B2381C51EB32EF9001E140E /* API-Client */ = {
 			isa = PBXGroup;
 			children = (
-				5B2381C61EB32EF9001E140E /* AppDelegate.swift */,
-				5B2381C81EB32EF9001E140E /* ViewController.swift */,
-				5B2381CA1EB32EF9001E140E /* Main.storyboard */,
-				5B2381CD1EB32EF9001E140E /* Assets.xcassets */,
-				5B2381CF1EB32EF9001E140E /* LaunchScreen.storyboard */,
-				5B2381D21EB32EF9001E140E /* Info.plist */,
+				5B2381D81EB32F54001E140E /* Models */,
+				5B2381D91EB32F66001E140E /* Views */,
+				5B2381DA1EB32F6C001E140E /* Controllers */,
+				5B2381DB1EB32F8E001E140E /* Resources */,
+				5B2381F51EB338B4001E140E /* Services */,
 			);
 			path = "API-Client";
+			sourceTree = "<group>";
+		};
+		5B2381D81EB32F54001E140E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B2381DC1EB33137001E140E /* FoodTruck.swift */,
+				5B2381DE1EB3340D001E140E /* FoodTruckReview.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5B2381D91EB32F66001E140E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B2381CA1EB32EF9001E140E /* Main.storyboard */,
+				5B2381FD1EB33ADC001E140E /* LogInVC.xib */,
+				5B2381CF1EB32EF9001E140E /* LaunchScreen.storyboard */,
+				5B2381E01EB334EE001E140E /* FoodTruckCell.swift */,
+				5B2381E21EB3351E001E140E /* ReviewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5B2381DA1EB32F6C001E140E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B2381C61EB32EF9001E140E /* AppDelegate.swift */,
+				5B2381E41EB33566001E140E /* MainVC.swift */,
+				5B2381EA1EB335F1001E140E /* AddTruckVC.swift */,
+				5B2381EC1EB3362E001E140E /* DetailsVC.swift */,
+				5B2381EE1EB3367B001E140E /* ReviewsVC.swift */,
+				5B2381F01EB336B3001E140E /* AddReviewVC.swift */,
+				5B2381FC1EB33ADC001E140E /* LogInVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B2381DB1EB32F8E001E140E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B2381CD1EB32EF9001E140E /* Assets.xcassets */,
+				5B2381D21EB32EF9001E140E /* Info.plist */,
+				5B2381F31EB3370A001E140E /* Constants.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B2381F51EB338B4001E140E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5B2381F61EB338F3001E140E /* DataService.swift */,
+				5B2381F81EB33932001E140E /* AuthService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +204,7 @@
 			files = (
 				5B2381D11EB32EF9001E140E /* LaunchScreen.storyboard in Resources */,
 				5B2381CE1EB32EF9001E140E /* Assets.xcassets in Resources */,
+				5B2381FF1EB33ADC001E140E /* LogInVC.xib in Resources */,
 				5B2381CC1EB32EF9001E140E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2381C91EB32EF9001E140E /* ViewController.swift in Sources */,
+				5B2381DF1EB3340D001E140E /* FoodTruckReview.swift in Sources */,
+				5B2381F71EB338F3001E140E /* DataService.swift in Sources */,
+				5B2381E51EB33566001E140E /* MainVC.swift in Sources */,
+				5B2381E31EB3351E001E140E /* ReviewCell.swift in Sources */,
+				5B2381ED1EB3362E001E140E /* DetailsVC.swift in Sources */,
 				5B2381C71EB32EF9001E140E /* AppDelegate.swift in Sources */,
+				5B2381EF1EB3367B001E140E /* ReviewsVC.swift in Sources */,
+				5B2381DD1EB33137001E140E /* FoodTruck.swift in Sources */,
+				5B2381EB1EB335F1001E140E /* AddTruckVC.swift in Sources */,
+				5B2381E11EB334EE001E140E /* FoodTruckCell.swift in Sources */,
+				5B2381FE1EB33ADC001E140E /* LogInVC.swift in Sources */,
+				5B2381F11EB336B3001E140E /* AddReviewVC.swift in Sources */,
+				5B2381F41EB3370A001E140E /* Constants.swift in Sources */,
+				5B2381F91EB33932001E140E /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
